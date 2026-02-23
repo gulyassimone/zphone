@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.ytd filter=lfs diff=lfs merge=lfs -text
+*.ydr filter=lfs diff=lfs merge=lfs -text
+*.yft filter=lfs diff=lfs merge=lfs -text
+*.ybn filter=lfs diff=lfs merge=lfs -text
+*.ycd filter=lfs diff=lfs merge=lfs -text
+*.awc filter=lfs diff=lfs merge=lfs -text
